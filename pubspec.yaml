@@ -1,0 +1,27 @@
+name: oddspro_bettingtips
+description: "Professional sports predictions and betting tips powered by AI"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.25.4 # Updated for latest compatibility
+  firebase_auth: ^4.17.3 # Updated for latest compatibility
+  cloud_firestore: ^4.15.7 # Updated for latest compatibility
+  provider: ^6.1.1 # Updated for latest compatibility
+  http: ^1.2.0 # Updated for latest compatibility
+  intl: ^0.19.0 # Updated for latest compatibility
+  flutter_svg: ^2.0.10+1 # Updated for latest compatibility
+  flutter_stripe: ^9.6.0 # Updated for latest compatibility
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1 # Updated for latest compatibility
+
+flutter:
+  uses-material-design: true
